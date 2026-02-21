@@ -254,23 +254,23 @@ class CloudDashboard {
     createSkillsCharts() {
         // Cloud Skills Chart
         this.createSkillChart('cloudSkillsChart', {
-            labels: ['Machine Learning', 'Deep Learning', 'Sports Analytics', 'Data Analysis', 'Geospatial'],
-            data: [75, 60, 70, 85, 65],
-            colors: ['#FF6384', '#36A2EB', '#9966FF', '#FFCE56', '#4BC0C0']
+            labels: ['Machine Learning', 'Deep Learning', 'LLMs & RAG', 'Agentic Workflows', 'Sports Analytics'],
+            data: [75, 60, 70, 65, 70],
+            colors: ['#FF6384', '#36A2EB', '#9966FF', '#FF9F40', '#4BC0C0']
         });
 
         // Programming Skills Chart
         this.createSkillChart('programmingSkillsChart', {
-            labels: ['Python', 'SQL', 'R', 'C++'],
-            data: [90, 85, 70, 65],
-            colors: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+            labels: ['Python', 'SQL', 'R'],
+            data: [90, 85, 70],
+            colors: ['#FF6384', '#36A2EB', '#FFCE56']
         });
 
         // Tools Skills Chart
         this.createSkillChart('frameworksSkillsChart', {
-            labels: ['Power BI', 'Excel', 'Git', 'VS Code', 'Cursor', 'Figma'],
-            data: [80, 90, 75, 85, 80, 60],
-            colors: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40']
+            labels: ['Power BI', 'Excel', 'Git', 'Cursor', 'Ollama', 'Docker'],
+            data: [80, 90, 75, 80, 60, 55],
+            colors: ['#FF6384', '#36A2EB', '#FFCE56', '#9966FF', '#4BC0C0', '#FF9F40']
         });
     }
 

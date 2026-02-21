@@ -965,25 +965,25 @@ ${this.wrapWithColor(
   showSkills(outputElement = this.output) {
     const skills = `<span style="color: #ffff00; font-weight: bold;">🛠️ SKILLS & TECHNOLOGIES</span>
 
-• ${this.wrapWithColor("Python", "#ffffff")}
-• ${this.wrapWithColor("SQL", "#ffffff")}
-• ${this.wrapWithColor("R", "#ffffff")}
-• ${this.wrapWithColor("C++", "#ffffff")}
-• ${this.wrapWithColor("Machine Learning", "#ffffff")}
-• ${this.wrapWithColor("Deep Learning", "#ffffff")}
-• ${this.wrapWithColor("AI Engineering", "#ffffff")}
-• ${this.wrapWithColor("Sports Analytics", "#ffffff")}
-• ${this.wrapWithColor("Data Analysis", "#ffffff")}
-• ${this.wrapWithColor("Data Visualization", "#ffffff")}
-• ${this.wrapWithColor("Power BI", "#ffffff")}
-• ${this.wrapWithColor("Excel", "#ffffff")}
-• ${this.wrapWithColor("ETL Automation", "#ffffff")}
-• ${this.wrapWithColor("Geospatial Analysis", "#ffffff")}
-• ${this.wrapWithColor("Git", "#ffffff")}
-• ${this.wrapWithColor("AWS (Basic)", "#ffffff")}
-• ${this.wrapWithColor("Cursor", "#ffffff")}
-• ${this.wrapWithColor("Figma", "#ffffff")}
-• ${this.wrapWithColor("Software Development", "#ffffff")}`;
+${this.wrapWithColor("Languages:", "#00ffff")}
+• ${this.wrapWithColor("Python", "#ffffff")}  • ${this.wrapWithColor("SQL", "#ffffff")}  • ${this.wrapWithColor("R", "#ffffff")}
+
+${this.wrapWithColor("AI & Data:", "#00ffff")}
+• ${this.wrapWithColor("Machine Learning", "#ffffff")}  • ${this.wrapWithColor("Deep Learning", "#ffffff")}
+• ${this.wrapWithColor("LLMs & RAG", "#ffffff")}  • ${this.wrapWithColor("Agentic Workflows", "#ffffff")}
+• ${this.wrapWithColor("Prompt Engineering", "#ffffff")}  • ${this.wrapWithColor("Sports Analytics", "#ffffff")}
+
+${this.wrapWithColor("Backend / Data:", "#00ffff")}
+• ${this.wrapWithColor("Data Pipelines", "#ffffff")}  • ${this.wrapWithColor("Backend Automation", "#ffffff")}
+• ${this.wrapWithColor("API Development", "#ffffff")}  • ${this.wrapWithColor("Supabase", "#ffffff")}
+
+${this.wrapWithColor("Tools:", "#00ffff")}
+• ${this.wrapWithColor("Git", "#ffffff")}  • ${this.wrapWithColor("Cursor", "#ffffff")}  • ${this.wrapWithColor("Ollama", "#ffffff")}
+• ${this.wrapWithColor("Docker", "#ffffff")}  • ${this.wrapWithColor("Figma", "#ffffff")}  • ${this.wrapWithColor("Power BI", "#ffffff")}
+
+${this.wrapWithColor("Architecture:", "#00ffff")}
+• ${this.wrapWithColor("MCP Integrations", "#ffffff")}  • ${this.wrapWithColor("AI Agents", "#ffffff")}
+• ${this.wrapWithColor("ETL Processes", "#ffffff")}  • ${this.wrapWithColor("Data Pipelines", "#ffffff")}`;
 
     const skillsDiv = document.createElement("div");
     skillsDiv.innerHTML = skills;
@@ -1091,16 +1091,17 @@ ${this.wrapWithColor("╰──────────────────�
         Python: 90,
         SQL: 85,
         R: 70,
-        "C++": 65,
       },
       ai: {
         "Machine Learning": 80,
         "Deep Learning": 65,
+        "LLMs & RAG": 70,
+        "Agentic Workflows": 65,
         "Sports Analytics": 70,
-        "AI Engineering": 75,
       },
       cloud: {
         "AWS (Basic)": 50,
+        Docker: 55,
       },
     };
   }
