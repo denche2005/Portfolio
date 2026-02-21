@@ -447,7 +447,7 @@ body {
   background-size: 100% 100%, 100% 100%, 100% 100%, 100% 100%, 20px 20px, 20px 20px, 100%;
   border: 6px solid var(--border);
   box-shadow: 12px 12px 0 var(--border);
-  max-width: 1800px;
+  max-width: calc(100vw - 40px);
   margin: 0 auto 20px;
   min-height: calc(100vh - 40px);
   overflow: visible;
