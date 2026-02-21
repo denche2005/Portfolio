@@ -254,22 +254,22 @@ class CloudDashboard {
     createSkillsCharts() {
         // Cloud Skills Chart
         this.createSkillChart('cloudSkillsChart', {
-            labels: ['AWS', 'Docker', 'Kubernetes', 'Terraform'],
-            data: [90, 95, 75, 85],
-            colors: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+            labels: ['Machine Learning', 'Deep Learning', 'Sports Analytics', 'Data Analysis', 'Geospatial'],
+            data: [75, 60, 70, 85, 65],
+            colors: ['#FF6384', '#36A2EB', '#9966FF', '#FFCE56', '#4BC0C0']
         });
 
         // Programming Skills Chart
         this.createSkillChart('programmingSkillsChart', {
-            labels: ['JavaScript', 'Python', 'Java', 'Go'],
-            data: [95, 90, 80, 70],
+            labels: ['Python', 'SQL', 'R', 'C++'],
+            data: [90, 85, 70, 65],
             colors: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
         });
 
-        // Frameworks Skills Chart
+        // Tools Skills Chart
         this.createSkillChart('frameworksSkillsChart', {
-            labels: ['React', 'Node.js', 'Django', 'Spring'],
-            data: [95, 90, 85, 75],
+            labels: ['Power BI', 'Excel', 'Git', 'VS Code'],
+            data: [80, 90, 75, 85],
             colors: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
         });
     }
