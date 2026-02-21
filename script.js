@@ -922,7 +922,7 @@ ${this.wrapWithColor(
   "#ff8c00"
 )}
 ${this.wrapWithColor("│", "#ff8c00")}${this.wrapWithColor(
-      " High School Diploma ",
+      " High School Diploma - Matricula de Honor ",
       "#ffffff"
     )}${this.wrapWithColor("│", "#ff8c00")}
 ${this.wrapWithColor(
@@ -981,6 +981,8 @@ ${this.wrapWithColor(
 • ${this.wrapWithColor("Geospatial Analysis", "#ffffff")}
 • ${this.wrapWithColor("Git", "#ffffff")}
 • ${this.wrapWithColor("AWS (Basic)", "#ffffff")}
+• ${this.wrapWithColor("Cursor", "#ffffff")}
+• ${this.wrapWithColor("Figma", "#ffffff")}
 • ${this.wrapWithColor("Software Development", "#ffffff")}`;
 
     const skillsDiv = document.createElement("div");

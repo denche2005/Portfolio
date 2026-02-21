@@ -268,9 +268,9 @@ class CloudDashboard {
 
         // Tools Skills Chart
         this.createSkillChart('frameworksSkillsChart', {
-            labels: ['Power BI', 'Excel', 'Git', 'VS Code'],
-            data: [80, 90, 75, 85],
-            colors: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0']
+            labels: ['Power BI', 'Excel', 'Git', 'VS Code', 'Cursor', 'Figma'],
+            data: [80, 90, 75, 85, 80, 60],
+            colors: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40']
         });
     }
 
