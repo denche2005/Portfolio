@@ -551,15 +551,56 @@
             </div>
         </section>
 
-        <section class="section section-compact" id="projects">
-            <div class="creator-showcase">
-                <p class="creator-label">Featured Project</p>
-                <div class="creator-project" style="cursor: default;">
-                    <i class="fas fa-mountain" style="font-size: 60px; color: var(--accent);"></i>
-                    <span class="creator-name">Hiking Routes Optimizer</span>
+        <section class="section" id="projects">
+            <h2 class="section-title">PROJECTS</h2>
+            <div class="projects-grid-neo">
+
+                <div class="project-card-neo featured">
+                    <div class="project-card-badge">Featured</div>
+                    <div class="project-card-header">
+                        <img src="image/football-ai-logo.png" alt="Football AI Logo" class="project-card-logo">
+                        <div>
+                            <h3 class="project-card-title">Football AI Analysis</h3>
+                            <span class="project-card-status live"><i class="fas fa-circle"></i> Live</span>
+                        </div>
+                    </div>
+                    <p class="project-card-desc">AI-powered football match analysis pipeline. Upload any video and get player tracking, team detection via K-Means clustering, speed & distance in metres, and ball possession stats. Six sequential computer vision modules from detection to annotation.</p>
+                    <div class="project-card-tech">
+                        <span class="project-tag">YOLOv8</span>
+                        <span class="project-tag">OpenCV</span>
+                        <span class="project-tag">FastAPI</span>
+                        <span class="project-tag">ByteTrack</span>
+                        <span class="project-tag">scikit-learn</span>
+                        <span class="project-tag">NumPy</span>
+                    </div>
+                    <div class="project-card-links">
+                        <a href="https://football-ai-analysis-production.up.railway.app/" target="_blank" class="project-link-btn primary"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        <a href="https://github.com/denche2005/Football-AI-Analysis" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
                 </div>
-                <p class="creator-tagline">A Python-based system to collect, analyze, and visualize geospatial data for hiking trails and historical landmarks in Catalonia. Uses clustering algorithms and route optimization.</p>
-                <a href="https://github.com/denche2005" target="_blank" class="creator-github"><i class="fab fa-github"></i> View on GitHub</a>
+
+                <div class="project-card-neo">
+                    <div class="project-card-header">
+                        <div class="project-card-icon">
+                            <i class="fas fa-mountain"></i>
+                        </div>
+                        <div>
+                            <h3 class="project-card-title">Hiking Routes Optimizer</h3>
+                            <span class="project-card-status wip"><i class="fas fa-wrench"></i> Academic</span>
+                        </div>
+                    </div>
+                    <p class="project-card-desc">A Python-based system to collect, analyze, and visualize geospatial data for hiking trails and historical landmarks in Catalonia. Uses clustering algorithms and route optimization to find the best paths.</p>
+                    <div class="project-card-tech">
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">Clustering</span>
+                        <span class="project-tag">Geospatial</span>
+                        <span class="project-tag">Data Analysis</span>
+                    </div>
+                    <div class="project-card-links">
+                        <a href="https://github.com/denche2005" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+
             </div>
         </section>
 

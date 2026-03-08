@@ -1074,12 +1074,20 @@ ${this.wrapWithColor("╰──────────────────�
   loadProjects() {
     this.projects = [
       {
+        title: "Football AI Analysis",
+        description: "AI-powered football match analysis pipeline — player tracking, team detection via K-Means, speed & distance stats, and ball possession. Six CV modules from detection to annotation.",
+        image: "",
+        technologies: ["YOLOv8", "OpenCV", "FastAPI", "ByteTrack", "scikit-learn", "NumPy"],
+        demo: "https://football-ai-analysis-production.up.railway.app/",
+        repo: "https://github.com/denche2005/Football-AI-Analysis",
+      },
+      {
         title: "Hiking Routes Optimizer",
         description: "Python-based system to collect, analyze, and visualize geospatial data for hiking trails and historical landmarks in Catalonia",
         image: "",
         technologies: ["Python", "Data Analysis", "Clustering", "Geospatial"],
         demo: "",
-        repo: "",
+        repo: "https://github.com/denche2005",
       },
     ];
   }
