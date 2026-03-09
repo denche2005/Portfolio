@@ -1123,7 +1123,7 @@ ${this.wrapWithColor("╰──────────────────�
           projects: {
             type: "directory",
             contents: {
-              "hiking-optimizer.md": { type: "file", content: "# Hiking Routes Optimizer\nPython-based system for geospatial data analysis of hiking trails and historical landmarks in Catalonia." },
+              "airbnb-predictor.md": { type: "file", content: "# Airbnb Price Predictor\nML-powered web app predicting fair nightly Airbnb prices worldwide. XGBoost model trained on ~500K listings across 24 cities (R² ≈ 0.97). FastAPI + React + Playwright." },
             },
           },
         },
