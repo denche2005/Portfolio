@@ -685,7 +685,7 @@ ${this.wrapWithColor(
   "   From Kharkiv to Barcelona. 15+ freelance projects,",
   "#ffffff"
 )}
-${this.wrapWithColor("   Technip Energies intern, heading to Copenhagen", "#ffffff")}
+${this.wrapWithColor("   Technip Energies intern, heading to Gothenburg", "#ffffff")}
 
 ${this.wrapWithColor(
   "╭───────────────────────────────────────────────────────╮",
@@ -892,7 +892,7 @@ ${this.wrapWithColor(
 )}
 
 ${this.wrapWithColor("🏛️ Institution:", "#ff8c00")} ${this.wrapWithColor(
-      "IT University of Copenhagen",
+      "Chalmers University of Technology",
       "#ffffff"
     )}
 ${this.wrapWithColor("📅 Duration:", "#ff8c00")}    ${this.wrapWithColor(
@@ -900,7 +900,7 @@ ${this.wrapWithColor("📅 Duration:", "#ff8c00")}    ${this.wrapWithColor(
       "#ffffff"
     )}
 ${this.wrapWithColor("📍 Location:", "#ff8c00")}    ${this.wrapWithColor(
-      "Copenhagen, Denmark",
+      "Gothenburg, Sweden",
       "#ffffff"
     )}
 
@@ -948,7 +948,7 @@ ${this.wrapWithColor(
   "#ff8c00"
 )}
 ${this.wrapWithColor("│", "#ff8c00")}${this.wrapWithColor(
-      " From Kharkiv to Barcelona to Copenhagen ",
+      " From Kharkiv to Barcelona to Gothenburg ",
       "#ffffff"
     )}${this.wrapWithColor("│", "#ff8c00")}
 ${this.wrapWithColor(
@@ -1118,7 +1118,7 @@ ${this.wrapWithColor("╰──────────────────�
       resume: {
         type: "directory",
         contents: {
-          "about.txt": { type: "file", content: "Denys Cherednychenko - AI, Data & Software. Data Science & Engineering student at UPC. From Kharkiv to Barcelona, heading to Copenhagen." },
+          "about.txt": { type: "file", content: "Denys Cherednychenko - AI, Data & Software. Data Science & Engineering student at UPC. From Kharkiv to Barcelona, heading to Gothenburg." },
           "skills.md": { type: "file", content: "# Skills\n\nPython, SQL, R, Machine Learning, Deep Learning, LLMs & RAG, Agentic Workflows, Sports Analytics, Supabase, Docker, Ollama" },
           projects: {
             type: "directory",

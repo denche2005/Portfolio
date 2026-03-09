@@ -2351,8 +2351,9 @@ body[data-theme="dark"] .map-popup-company span {
   padding: 0.1rem 0.5rem;
   font-weight: 600;
   border-radius: 3px;
-  display: inline-block;
-  margin: 0.25rem 0.1rem;
+  display: inline;
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
   position: relative;
   background: transparent;
   z-index: 1;
